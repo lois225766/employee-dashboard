@@ -1,16 +1,28 @@
-# React + Vite
+# Employee Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Employee Dashboard built using React and Vite.
 
-Currently, two official plugins are available:
+## Features
+- View employee ID, name, and email.
+- Fetch employee details from the JSONPlaceholder API.
+- Navigate between Home and Employee Form pages.
+- Employee form with Name, Designation, Location, and Salary fields.
+- Responsive styling with CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React
+- JavaScript
+- Vite
+- React Router
+- CSS
+- JSONPlaceholder API
 
-## React Compiler
+## How to Run the Project
+1. Install [Node.js](https://nodejs.org/).
+2. Clone or download this repository.
+3. Open the project folder in a terminal.
+4. Run `npm install`.
+5. Run `npm run dev`.
+6. Open the localhost URL shown in the terminal.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Note:** The employee form currently displays a submission confirmation and does not save data to a backend.
